@@ -18,7 +18,7 @@ class Parameters(BaseModel):
 
 @app.get("/")
 def read_root():
-    return "Hello world"
+    return "Deploy House Price Prediction Model with FastAPI"
 
 
 @app.post("/house_pred")
